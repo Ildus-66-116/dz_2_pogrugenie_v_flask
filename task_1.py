@@ -1,8 +1,4 @@
-from pathlib import PurePath, Path
-from flask import Flask, render_template, url_for, request, redirect, session, make_response
-from werkzeug.utils import secure_filename
-from markupsafe import escape
-import requests
+from flask import Flask, render_template, request, redirect, make_response
 
 app = Flask(__name__)
 
